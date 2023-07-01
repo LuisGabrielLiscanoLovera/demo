@@ -1,0 +1,347 @@
+body{
+  padding: 10px;
+}
+
+/*body{
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.1px;
+  line-height: 1;
+  padding:0px;
+  margin: 0px;
+  }*/
+
+
+ /* body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+  }*/
+
+
+
+/*CONTENEDOR GLOBAL*/
+/*.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  padding-bottom: 0;
+}
+
+header{
+  background:#062A3C;
+  color: #ffffff;
+  padding: 10px;
+  min-height: 40px;
+  border-bottom: #DD631D 2px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+header ul{
+  margin:0;
+  padding:0;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header #branding {
+  float:left;
+}
+
+header nav{
+  float:right;
+ margin-top:10px;
+}
+header .higlight, header .current a{
+  color:#DD631D;
+  font-weight: bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight: bold;
+}
+*/
+
+header{
+  background:#062A3C;
+  color: #ffffff;
+  padding: 10px;
+  min-height: 40px;
+  border-bottom: #DD631D 2px solid;
+}
+
+header .higlight, header .current a{
+  color:#DD631D;
+  font-weight: bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight: bold;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/*header nav{
+  float:right;
+ }*/
+
+
+/**showcase**/
+#showcase{
+  min-height: 550px;
+  background:url('./img/banner2.jpg') no-repeat ;
+  background-size:cover;
+  text-align:center;
+  color:#ffffff;
+
+  
+  
+}
+
+/*#showcase::after{
+
+  content: "";
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity:  0.2;
+
+}*/
+
+.container2{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  padding-bottom: 0;
+ 
+
+  
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+
+/****newsletter****/
+
+#newsletter{
+  background-color: #DD631D;
+  color:#ffffff;
+  text-align: center;
+  padding: 15px;
+
+}
+
+#newsletter2{
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+
+#boxes{
+  margin-top:20px;
+  text-align: center;
+
+}
+
+#boxes2{
+  margin-top:20px;
+  text-align: center;
+
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width: 30%;
+  padding:15px;
+  margin-bottom: 10px;
+
+}
+
+#boxes2 .box{
+  float:left;
+  text-align: center;
+  width: 30%;
+  padding:15px;
+  margin-bottom: 10px;
+
+}
+
+#boxes .box:hover{
+  border-style: solid;
+  border-color:gray;
+  border-width: 0.1px;
+  box-shadow:10px 10px 5px #888;
+}
+
+.card:hover{
+
+  border-style: solid;
+  border-color:gray;
+  border-width: 0.1px;
+  box-shadow:10px 10px 5px #888;
+
+}
+
+#boxes i{
+  background-color: #222A3F;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 50%;
+  width:50px;
+/*  height: 60px;*/
+}
+
+/**Footer*/
+#footer1{
+  padding-top:20px;
+  padding-bottom: 20px;
+  /*margin-top:30px;*/
+  color:#ffffff;
+  background-color: #062A3C;
+  text-align:  center;
+  font-weight: bold;
+  height: 100px;
+
+
+}
+
+
+.btn-orange{
+  background-color: #DD631D;
+  color: white;
+}
+
+.btn-blue{
+  background-color: #062A3C;
+  color: white;
+}
+
+
+
+
+
+#banner{
+background-color: #222A3F;
+background: url("./img/contact-us.jpg") no-repeat;
+background-size:cover;
+/*background-color: #8AB939;*/
+color:white;
+text-align: center;
+
+}
+
+
+#banner1{
+
+  color:#222A3F;
+  text-align: center;
+  padding:20px;
+
+}
+
+.Greenletter{
+  color: #DD631D;
+}
+
+
+/*.button1{
+  height:40px;
+  background:#8AB939;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  margin-top:50px;
+  padding:15px;
+  background:#222A3F;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  height:300px;
+}
+
+.textbox{
+  width:90%;
+
+}
+
+.text-area{
+  width:90%;
+  height:60px;
+}
+*/
+
+
+
+
+hr{
+  width:75%;
+  border: 1px Solid #DD631D;
+}
+
+.greenButton{
+  background-color:#DD631D;
+  border:none;
+  padding:10px 15px;
+  margin:10px;
+  color:#fff;
+  font-weight: bold;
+  text-decoration:none;
+  display: inline-block;
+
+}
+
+
+.img2 {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
